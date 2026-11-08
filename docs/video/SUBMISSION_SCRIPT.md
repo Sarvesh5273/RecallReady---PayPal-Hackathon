@@ -55,7 +55,7 @@ Timings are editorial targets. Rendered narration duration must be measured; ret
 
 **Narration:**
 
-Three power-bank orders. Same brand. Similar titles. A recall notice says: refund. Would you refund all three? One matches. One has a different model. One is missing the evidence. The challenge is deciding which is which.
+Three power bank orders. Same brand. Similar titles. One recall. Would you refund all three? One matches. One has a different model. One is missing the evidence. The challenge is deciding which is which.
 
 ### 0:18–0:32 · A specific person and job
 

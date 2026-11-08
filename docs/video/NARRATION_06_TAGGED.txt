@@ -1,0 +1,1 @@
+[confident] Now repeat the request. The same attempt returns. [short pause] No second refund is sent. If the outcome is uncertain, RecallReady shows uncertainty and checks provider records. An uncertain response never becomes permission to resend. The receipt keeps the financial result and its source evidence together.

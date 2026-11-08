@@ -1,0 +1,72 @@
+{
+  "status": "PICTURE_LOCKED",
+  "lockedAt": "2026-11-08T17:40:19.798406+05:30",
+  "videoFile": "RecallReady-submission-screen-recording.mp4",
+  "sha256": "dd6211a9b392b334224726ecbbebe9fc2cf0a862e480b7b077da1c82e92f5e97",
+  "durationSeconds": 170,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "audioIncluded": false,
+  "userAuthorization": "User requested locking the demo and preparing manually generated ElevenLabs voiceover with tags.",
+  "scope": "Silent picture edit only. Voiceover synthesis, audio synchronization, final audio QA, public upload and submission remain.",
+  "sourceAndRefundApprovals": "Original recorded operator actions retained. Later corrected-layout pickups preserve the same sandbox refund.",
+  "scenes": [
+    {
+      "number": 1,
+      "startSeconds": 0,
+      "durationSeconds": 18,
+      "taggedTextFile": "NARRATION_01_TAGGED.txt",
+      "spokenWords": 34
+    },
+    {
+      "number": 2,
+      "startSeconds": 18,
+      "durationSeconds": 14,
+      "taggedTextFile": "NARRATION_02_TAGGED.txt",
+      "spokenWords": 32
+    },
+    {
+      "number": 3,
+      "startSeconds": 32,
+      "durationSeconds": 27,
+      "taggedTextFile": "NARRATION_03_TAGGED.txt",
+      "spokenWords": 59
+    },
+    {
+      "number": 4,
+      "startSeconds": 59,
+      "durationSeconds": 25,
+      "taggedTextFile": "NARRATION_04_TAGGED.txt",
+      "spokenWords": 56
+    },
+    {
+      "number": 5,
+      "startSeconds": 84,
+      "durationSeconds": 34,
+      "taggedTextFile": "NARRATION_05_TAGGED.txt",
+      "spokenWords": 70
+    },
+    {
+      "number": 6,
+      "startSeconds": 118,
+      "durationSeconds": 21,
+      "taggedTextFile": "NARRATION_06_TAGGED.txt",
+      "spokenWords": 44
+    },
+    {
+      "number": 7,
+      "startSeconds": 139,
+      "durationSeconds": 16,
+      "taggedTextFile": "NARRATION_07_TAGGED.txt",
+      "spokenWords": 39
+    },
+    {
+      "number": 8,
+      "startSeconds": 155,
+      "durationSeconds": 15,
+      "taggedTextFile": "NARRATION_08_TAGGED.txt",
+      "spokenWords": 33
+    }
+  ]
+}

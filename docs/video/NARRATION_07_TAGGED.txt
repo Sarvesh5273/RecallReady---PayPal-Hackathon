@@ -1,0 +1,1 @@
+[confident] A G Grid makes the order evidence inspectable. Postgres preserves approvals and the durable execution record. The public M I T repository includes setup instructions, tests, and verified sandbox proof. Reviewers can explore an isolated simulation without payment credentials.

@@ -22,3 +22,11 @@ Use clear, conversational English. Pronounce PB0003 with all three zeros, and PB
 The product footage uses synthetic orders, actual CPSC/Gemini source extraction, and real PayPal sandbox transactions. Original source and refund approvals are retained. The layout was corrected afterward; blocked-case and completed-result/repeat pickups use the corrected layout with the same original transaction. Review and processing waits are shortened, and crops/final-frame holds are logged in the local edit manifest. No new purchase or refund approval was performed for pickups.
 
 The silent recording still needs the owner’s voiceover and final audio synchronization. A public video upload and Devpost submission have not been performed.
+
+## Locked picture and tagged voiceover
+
+The owner approved locking this silent edit on November 8, 2026. `PICTURE_LOCK.json` records the exact MP4 SHA-256 and the eight scene durations. The lock covers the screen edit; final audio synchronization and review remain.
+
+Use `NARRATION_01_TAGGED.txt` through `NARRATION_08_TAGGED.txt` separately, or consult `NARRATION_TAGGED.txt` for the complete script. The headings and timestamps in this guide should not be pasted into the speech prompt. Keep the same voice and model across all eight clips. The tags give subtle delivery direction, with brief pauses in the opening and repeat proof. Their exact timing depends on the chosen voice; verify that no tags are spoken aloud.
+
+ElevenLabs documents audio-tag support in Eleven v4 and v3 and recommends v4: https://elevenlabs.io/docs/help-center/product/core-capabilities/text-to-speech/how-do-audio-tags-work-with-eleven-v3-and-v4 . Use v4 when available, or v3. Generate a short sample, listen for every zero in PB0003/PB003, and measure each clip against the scene lengths above. If a clip is long, trim excess silence or adjust the narration delivery before final assembly.
