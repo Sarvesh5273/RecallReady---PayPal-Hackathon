@@ -84,6 +84,7 @@ p {
 }
 .app-shell {
   display: flex;
+  align-items: flex-start;
   min-height: 100vh;
 }
 .sidebar {
@@ -95,6 +96,7 @@ p {
   display: flex;
   flex-direction: column;
   position: sticky;
+  align-self: flex-start;
   top: 0;
   height: 100vh;
 }
@@ -210,6 +212,9 @@ p {
   min-width: 0;
 }
 .topbar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
   height: 70px;
   border-bottom: 1px solid var(--line);
   background: #fbfcf9;
@@ -1272,7 +1277,8 @@ h3 {
 }
 .topbar {
   height: 72px;
-  background: #ffffffb3;
+  background: #fbfcf9;
+  padding-inline: max(30px, calc((100% - 1600px) / 2 + 30px));
 }
 .breadcrumb {
   font-size: 12px;
@@ -1422,10 +1428,10 @@ h3 {
   box-shadow: 0 3px 12px #123d2103;
 }
 .detail-panel {
-  max-height: calc(100vh - 40px);
+  max-height: calc(100vh - 112px);
   overflow-y: auto;
   position: sticky;
-  top: 20px;
+  top: 92px;
 }
 .section-head {
   padding: 19px 20px;
@@ -1742,23 +1748,61 @@ h3 {
 .standalone .detail-panel {
   max-height: none;
   position: static;
-  max-width: 850px;
+  max-width: none;
   margin: auto;
+  overflow: visible;
 }
 .standalone .detail-body {
   padding: 24px 28px;
 }
 .standalone .detail-title {
   padding: 22px 28px;
+  border-radius: 14px 14px 0 0;
 }
 .standalone .detail-divider {
-  margin-left: -28px;
-  margin-right: -28px;
-  padding-left: 28px;
-  padding-right: 28px;
+  margin: 20px 0;
+  padding: 20px 0 0;
 }
 .standalone .case-next-step {
-  margin-bottom: 25px;
+  margin-bottom: 24px;
+}
+.case-evidence,
+.case-action {
+  min-width: 0;
+}
+.approval-box,
+.receipt-block {
+  scroll-margin-top: 96px;
+}
+.approval-note summary {
+  color: var(--teal);
+  cursor: pointer;
+  font-size: 12px;
+  padding: 8px 0;
+}
+.approval-box pre.hash {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+@media (min-width: 1100px) {
+  .standalone .case-review-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 28px;
+    align-items: start;
+  }
+  .standalone .case-action {
+    border-left: 1px solid var(--line);
+    padding-left: 28px;
+  }
+  .standalone .case-action > .detail-divider:first-child {
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+.source-layout > * {
+  min-width: 0;
 }
 .login-form .text-input {
   font-size: 15px;
@@ -2252,6 +2296,9 @@ h3 {
   .main-shell > main {
     padding: 26px 20px;
   }
+  .topbar {
+    padding-inline: 20px;
+  }
   .metric {
     padding: 16px;
   }
@@ -2403,6 +2450,7 @@ h3 {
   }
   .topbar {
     height: 60px;
+    padding-inline: 16px;
   }
   .breadcrumb {
     font-size: 11px !important;
@@ -2546,10 +2594,8 @@ h3 {
     padding: 20px;
   }
   .standalone .detail-divider {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 20px 0;
+    padding: 20px 0 0;
   }
   .detail-panel {
     max-height: none;

@@ -71,13 +71,16 @@ export function ApprovalDialog({
         />
         I reviewed the evidence, merchant basis, and exact amount.
       </label>
-      <label htmlFor="approval-note">Operator note (optional)</label>
-      <textarea
-        id="approval-note"
-        value={note}
-        onChange={(e) => setNote(e.target.value)}
-        maxLength={1000}
-      />
+      <details className="approval-note">
+        <summary>Optional operator note</summary>
+        <label htmlFor="approval-note">Operator note</label>
+        <textarea
+          id="approval-note"
+          value={note}
+          onChange={(e) => setNote(e.target.value)}
+          maxLength={1000}
+        />
+      </details>
       {error && (
         <div role="alert" className="error-box">
           {error}
