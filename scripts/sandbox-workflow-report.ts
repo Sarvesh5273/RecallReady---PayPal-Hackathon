@@ -1,5 +1,6 @@
 import "dotenv/config";
 import { mkdir, writeFile } from "node:fs/promises";
+import { join } from "node:path";
 import { pool, one } from "../lib/db";
 import type { Actor } from "../lib/auth/session";
 import type { Attempt } from "../lib/services/execution";
@@ -11,6 +12,14 @@ async function main() {
     .string()
     .uuid()
     .parse(index >= 0 ? process.argv[index + 1] : undefined);
+  const outputIndex = process.argv.indexOf("--output-dir");
+  const outputDir =
+    outputIndex >= 0
+      ? z
+          .string()
+          .min(1)
+          .parse(process.argv[outputIndex + 1])
+      : "docs/reports";
   const attempt = await one<Attempt>(
     pool,
     "SELECT * FROM payment_attempts WHERE id=$1 AND mode='PAYPAL_SANDBOX' AND status='COMPLETED'",
@@ -82,18 +91,22 @@ async function main() {
     keysDisplayed: false,
     limitations: [
       "Synthetic merchant, people, and order evidence.",
-      "Refund recovered from authoritative order and refund GET records after response-link parsing failed.",
-      "Recovery verifies the capture was refunded; provider-write actor attribution is not independently established.",
-      "Local build has no release tag. Demo video and public submission are not completed.",
+      ...(proof.evidence.verificationMethod === "ORDER_AND_REFUND_GET_RECOVERY"
+        ? [
+            "Refund recovered from authoritative order and refund GET records after response-link parsing failed.",
+            "Recovery verifies the capture was refunded; provider-write actor attribution is not independently established.",
+          ]
+        : []),
+      "Provider evidence does not establish production readiness or merchant demand.",
     ],
   };
-  await mkdir("docs/reports", { recursive: true });
+  await mkdir(outputDir, { recursive: true });
   await writeFile(
-    "docs/reports/sandbox-workflow-completed.json",
+    join(outputDir, "sandbox-workflow-completed.json"),
     JSON.stringify(report, null, 2) + "\n",
   );
   await writeFile(
-    "docs/reports/RR-001-sandbox-receipt.json",
+    join(outputDir, "RR-001-sandbox-receipt.json"),
     JSON.stringify(savedReceipt, null, 2) + "\n",
   );
   console.log(
