@@ -1,0 +1,16 @@
+Three power-bank orders. Same brand. Similar titles. A recall notice says: refund. Would you refund all three? One matches. One has a different model. One is missing the evidence. The challenge is deciding which is which.
+
+RecallReady helps small online sellers and support teams move from an official recall to a documented decision. Every case connects three things: the source, the order, and the merchant’s authority to act.
+
+Here is the official CPSC notice. Gemini extracts model details and remedy instructions with supporting quotes. Our server validates them against the saved source. But the description says P B zero zero zero three; the caption says P B zero zero three. We preserve that disagreement. The operator reviews the exact rule. AI cannot authorize a refund.
+
+Now watch the three orders separate. The exact model is a confirmed match. The different model is not matched to this notice. The missing model stays in review, and its financial action is disabled. The workbench makes the reason visible. A similar product title never establishes eligibility. An exact product match is only the first gate.
+
+Next comes the merchant’s independent courtesy policy. Belkin’s manufacturer remedy remains a separate follow-up; RecallReady does not file that claim. For this owned sandbox payment, the operator reviews forty-nine U S dollars and explicitly approves. The approval binds the amount, capture, and evidence versions. The worker rechecks them before sending the refund. It then reads PayPal’s refund record to verify the capture association, amount, and actual status. Completed means verified.
+
+Now repeat the request. The same attempt returns. No second refund is sent. If the outcome is uncertain, RecallReady shows uncertainty and checks provider records. An uncertain response never becomes permission to resend. The receipt keeps the financial result and its source evidence together.
+
+AG Grid makes the order evidence inspectable. PostgreSQL preserves approvals and the durable execution record. The public MIT repository includes setup instructions, tests, and the verified sandbox proof. Reviewers can explore an isolated simulation without payment credentials.
+
+Synthetic orders. Real source extraction. PayPal sandbox transactions. Merchant demand is our next validation step. RecallReady: from a confusing notice to an approved, verified refund. The right order. The right evidence. Your decision.
+

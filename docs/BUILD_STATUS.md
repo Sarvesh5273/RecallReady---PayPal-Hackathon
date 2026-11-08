@@ -83,3 +83,9 @@ These initial gates have since been completed; see the current verification abov
 AG Studio, signed webhooks, live model evaluation, actual payment proof, merchant interviews, comprehension study, measured workflow savings, public reviewer hosting, public repository/license grant, release tag, Devpost submission, and the final demo video. License publication and public deployment require separate owner authorization under the build contract.
 
 The work is a functioning bounded local prototype, not a production-readiness claim or a completed hackathon submission.
+
+## Submission recording · November 8, 2026
+
+A fresh owner recording exercised CPSC_LIVE → Gemini grounded-v3 → human PB0003 rule r2 → buyer-approved sandbox capture → separate courtesy-refund approval. PayPal GET confirms order `7S46908815058030C`, capture `1KX244698U995561R` (REFUNDED), and refund `8DK88315MK821104V` (COMPLETED, USD 49.00). This take completed through POST_THEN_REFUND_GET. After two repeated execution requests, SQL still reports one attempt, one dispatch event and one execution job. The redacted proof is `docs/reports/submission-recording-sandbox-proof.json`; the older recovery proof remains preserved separately.
+
+The case layout correction passed the production build, TypeScript/lint and six browser workflows. Desktop/phone layout checks verified visible approval controls and no horizontal overflow. Actual human-approval footage was retained, with corrected-layout pickups for nonfinancial screens. The silent MP4 is verified at 1920×1080, 30 fps, exactly 170 seconds, with no audio. Wait cuts and crops are logged. Narration, timing and disclosure guidance are in `docs/video/`. Owner voiceover, final audio synchronization, public video upload and Devpost submission remain.

@@ -95,3 +95,7 @@ Official CPSC recall 26-090, displayed date November 13, 2025: [Belkin recall no
 All people, emails, prices, serial values, and orders are synthetic. There is no manufacturer partnership, manufacturer claim filing, real-money operation, merchant validation, or measured injury reduction. No merchant interviews or three-person comprehension study have been completed.
 
 AG Grid Community 36.3.0 is implemented. AG Studio, customer message drafts, and webhooks are not implemented in this release. There is no unverified webhook route or public model proxy. Original code is licensed under [MIT](LICENSE); see [third-party notices](THIRD_PARTY_NOTICES.md) for dependency and source attribution. The source repository is published for the hackathon; public application hosting and the final demo video remain separate release steps.
+
+### Submission recording evidence
+
+The November 8, 2026 recording used a fresh buyer-approved sandbox purchase and a separately approved USD 49.00 courtesy refund. [Redacted recording proof](docs/reports/submission-recording-sandbox-proof.json) reports authoritative PayPal GET verification and one attempt, one dispatch, and one execution job after repeated execution. Original human-approval footage is retained; later layout pickups preserve the completed transaction. [Narration and shot plan](docs/video/SUBMISSION_SCRIPT.md) is provided for the owner’s manual voiceover. Local video files are excluded from Git and Docker images.

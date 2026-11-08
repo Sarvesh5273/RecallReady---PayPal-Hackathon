@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-11-08T11:55:29.710Z",
+  "mode": "PAYPAL_SANDBOX",
+  "source": {
+    "origin": "CPSC_LIVE",
+    "freshness_checked_at": "2026-11-08T11:17:19.029Z",
+    "provider": "GEMINI",
+    "model": "gemini-3.1-flash-lite",
+    "provider_response_id": "QFrwapSmFeLF694Pr9ro6QU",
+    "prompt_version": "grounded-v3",
+    "extraction_status": "CANDIDATE_READY",
+    "validation_errors": [],
+    "reviewed_rule_revision": 2,
+    "reviewed_at": "2026-11-08T11:25:34.487Z"
+  },
+  "recordedProof": {
+    "mode": "RECORDED_SANDBOX_EVIDENCE",
+    "orderId": "7S46908815058030C",
+    "currency": "USD",
+    "refundId": "8DK88315MK821104V",
+    "ruleHash": "6ba5921ddcda72b69bc2c876994910204f96c3be5140dc69e0776d45e14b7f27",
+    "attemptId": "63a087c0-7d22-4ad2-b745-247b1ff2f816",
+    "captureId": "1KX244698U995561R",
+    "approvalId": "fbfbcfba-0312-43c8-a5f5-45ae4ab461f8",
+    "sourceHash": "ea30d2d0a140ab5ade037f5495729136990baca4d7a59f290565ed140588776b",
+    "verifiedAt": "2026-11-08T11:54:48.608Z",
+    "amountMinor": "4900",
+    "refundStatus": "COMPLETED",
+    "captureStatus": "REFUNDED",
+    "verificationMethod": "POST_THEN_REFUND_GET",
+    "manufacturerClaimSubmitted": false
+  },
+  "recordedAt": "2026-11-08T11:54:48.611Z",
+  "buildReference": "UNTAGGED_LOCAL_BUILD",
+  "duplicateCheck": {
+    "attempts": 1,
+    "execution_jobs": 1,
+    "dispatch_events": 1,
+    "repeat_events": 2
+  },
+  "providerWritesDuringVerification": 0,
+  "keysDisplayed": false,
+  "limitations": [
+    "Synthetic merchant, people, and order evidence.",
+    "Provider evidence does not establish production readiness or merchant demand."
+  ],
+  "receipt": {
+    "mode": "PAYPAL_SANDBOX",
+    "merchant": "Harbor Demo Goods",
+    "order": "RR-001",
+    "customer": "Customer \u2022 001",
+    "product": {
+      "brand": "Belkin",
+      "model": "PB0003"
+    },
+    "match": {
+      "state": "EXACT_MATCH",
+      "reasons": ["BRAND_EXACT", "MODEL_EXACT", "ALL_SERIALS_EXPLICIT"]
+    },
+    "officialRemedy": {
+      "state": "EXTERNAL_FOLLOWUP_REQUIRED",
+      "manufacturerClaimSubmitted": false,
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Belkin-Recalls-Portable-Power-Banks-and-Wireless-Charging-Stands-Due-to-Fire-and-Burn-Hazards"
+    },
+    "source": {
+      "versionId": "1563f1c5-285e-4e56-a423-cb4995a89265",
+      "hash": "ea30d2d0a140ab5ade037f5495729136990baca4d7a59f290565ed140588776b",
+      "ruleId": "e7a6e877-04c9-40cc-83d3-3edcc2deff5a",
+      "ruleHash": "6ba5921ddcda72b69bc2c876994910204f96c3be5140dc69e0776d45e14b7f27"
+    }
+  },
+  "approval": {
+    "id": "fbfbcfba-0312-43c8-a5f5-45ae4ab461f8",
+    "amountMinor": "4900",
+    "currency": "USD",
+    "captureId": "1KX244698U995561R",
+    "fingerprint": "c3c576010de1d84979ebb93583931db71fb2bdaa1dcb815da1d4e77e9d046ccf",
+    "approvedAt": "2026-11-08T11:28:31.084Z"
+  },
+  "originalApprovalSourceCommit": "a3b6ed174b2e743d6e4af7644e11d96c4d763931",
+  "layoutPickupSourceCommit": "e1773ec"
+}

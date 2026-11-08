@@ -25,3 +25,11 @@ The production build and TypeScript/lint checks passed during the refresh. The e
 The redesign changes presentation and navigation. It does not create new PayPal transactions, alter the existing approval records, send customer messages, or publish the project. The verified sandbox refund remains preserved.
 
 A Figma design reference was attempted, but the connection expired before a file was created. Local app implementation continued successfully. No Figma deliverable is claimed.
+
+## Case alignment correction · November 8, 2026
+
+Standalone desktop cases now place product/source evidence beside the merchant policy and refund review. Gutters are aligned, the navigation and mode header stay anchored while scrolling, and the optional operator note is collapsed initially. Expanded immutable data wraps on phones. The workbench detail remains a single column.
+
+Production build, TypeScript and focused lint passed. All six browser workflows passed. Layout checks at 1920×1080, 1440×900, 1280×720 and 390×844 found no horizontal overflow and visible approval controls; expanded fingerprint/note was also checked at 390 pixels. The screenshot below uses the isolated simulation for UI verification. Real sandbox footage and verification use the recorded owner workspace.
+
+![Aligned case evidence and refund review](reports/ui-case-aligned.jpg)
