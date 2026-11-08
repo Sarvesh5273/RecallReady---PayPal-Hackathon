@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-11-08T12:49:23.276Z",
+  "publicSourceCommit": "82d27495dfe506b189e30bdfe59f0493d9c29e73",
+  "source": "Downloaded public GitHub ZIP; production Docker build; new temporary PostgreSQL database",
+  "mode": "SIMULATION",
+  "syntheticCases": 24,
+  "exactCaseCompleted": true,
+  "nearAndMissingCasesBlocked": true,
+  "repeatedAttemptPreserved": true,
+  "receiptVerified": true,
+  "externalProviderCredentialsUsed": false,
+  "paymentProviderWrites": 0,
+  "limitation": "Dependency installation layer reused Docker cache. This verifies a clean source archive and fresh database, not an uncached dependency install."
+}
