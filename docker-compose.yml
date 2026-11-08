@@ -1,0 +1,39 @@
+services:
+  db:
+    restart: unless-stopped
+    image: postgres:16.6-alpine
+    environment:
+      POSTGRES_USER: recallready
+      POSTGRES_PASSWORD: local_only_password
+      POSTGRES_DB: recallready
+    ports: ["127.0.0.1:54329:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U recallready"]
+      interval: 3s
+      retries: 20
+  app:
+    restart: unless-stopped
+    build: .
+    image: recallready:0.1.0
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://recallready:local_only_password@db:5432/recallready
+      NODE_ENV: production
+    ports: ["127.0.0.1:3000:3000"]
+    depends_on:
+      db: { condition: service_healthy }
+    command: ["sh", "-c", "npm run db:migrate && npm start"]
+  worker:
+    restart: unless-stopped
+    build: .
+    image: recallready:0.1.0
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://recallready:local_only_password@db:5432/recallready
+      NODE_ENV: production
+    depends_on:
+      db: { condition: service_healthy }
+    command: ["sh", "-c", "npm run db:migrate && npm run worker"]
+volumes:
+  pgdata:
