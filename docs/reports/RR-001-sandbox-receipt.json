@@ -1,0 +1,189 @@
+{
+  "mode": "PAYPAL_SANDBOX",
+  "merchant": "Harbor Demo Goods",
+  "order": "RR-001",
+  "customer": "Customer • 001",
+  "product": {
+    "brand": "Belkin",
+    "model": "PB0003"
+  },
+  "match": {
+    "state": "EXACT_MATCH",
+    "reasons": [
+      "BRAND_EXACT",
+      "MODEL_EXACT",
+      "ALL_SERIALS_EXPLICIT"
+    ]
+  },
+  "officialRemedy": {
+    "state": "EXTERNAL_FOLLOWUP_REQUIRED",
+    "manufacturerClaimSubmitted": false,
+    "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Belkin-Recalls-Portable-Power-Banks-and-Wireless-Charging-Stands-Due-to-Fire-and-Burn-Hazards"
+  },
+  "source": {
+    "versionId": "8b1cc5d8-fd7b-4cdd-9727-1ddc3bd158f8",
+    "hash": "ea30d2d0a140ab5ade037f5495729136990baca4d7a59f290565ed140588776b",
+    "ruleId": "d4555544-b87c-4c18-b90b-c4e21a6057c4",
+    "ruleHash": "6ba5921ddcda72b69bc2c876994910204f96c3be5140dc69e0776d45e14b7f27"
+  },
+  "courtesyAction": {
+    "attemptId": "d08c2d25-679b-4ea1-9787-a314fe325e14",
+    "approvalId": "dbbd3fd8-59d2-45e6-9cae-628c6652dfd3",
+    "amountMinor": "4900",
+    "currency": "USD",
+    "status": "COMPLETED",
+    "captureId": "07F32503KM161910G",
+    "providerRefundId": "30A36118AL831244C",
+    "providerStatus": "COMPLETED",
+    "requestId": "3b3acf10-3f2d-40d5-a6d7-ef4712f9df4d",
+    "verificationStale": false,
+    "recordedAt": "2026-11-08T09:17:45.917Z",
+    "approvedBasis": {
+      "action": "COURTESY_REFUND_FULL_CAPTURE",
+      "amountMinor": "4900",
+      "captureId": "07F32503KM161910G",
+      "caseId": "48384fa2-b773-445e-96ee-1e254b061ce2",
+      "caseRevision": 3,
+      "currency": "USD",
+      "mode": "PAYPAL_SANDBOX",
+      "paymentLinkId": "069a22aa-3a6a-4df0-a72a-395f1617fb31",
+      "policyHash": "c689c70296196bbafb836d0e7bbceff56941e8fd34df0f8855cdf04d2584709c",
+      "policyId": "05c3646f-7b70-4e28-9d65-ba7b020bfe03",
+      "ruleHash": "6ba5921ddcda72b69bc2c876994910204f96c3be5140dc69e0776d45e14b7f27",
+      "ruleId": "d4555544-b87c-4c18-b90b-c4e21a6057c4",
+      "sourceHash": "ea30d2d0a140ab5ade037f5495729136990baca4d7a59f290565ed140588776b",
+      "sourceVersionId": "8b1cc5d8-fd7b-4cdd-9727-1ddc3bd158f8",
+      "workspaceId": "aea63237-fa1d-4539-8988-3b371b49192f"
+    },
+    "approvedFingerprint": "85a5550e97e117f4411b231a4683b9695e2fa7f5423b0513312d7aa2d97378c4",
+    "approvedAt": "2026-11-08T08:59:08.632Z",
+    "approverId": "8ec895c9-4cc3-4505-a73a-d9da5df59b00",
+    "operatorNote": ""
+  },
+  "events": [
+    {
+      "event_type": "SANDBOX_ORDER_CREATED",
+      "details": {
+        "amountMinor": "4900",
+        "providerOrderId": "0XG13462MH668510N"
+      },
+      "created_at": "2026-11-08T08:00:57.436Z",
+      "correlation_id": "838428e6-af55-41a9-a43b-4e706a45b4fc"
+    },
+    {
+      "event_type": "SANDBOX_CAPTURE_VERIFIED",
+      "details": {
+        "captureId": "07F32503KM161910G",
+        "amountMinor": "4900",
+        "providerOrderId": "0XG13462MH668510N"
+      },
+      "created_at": "2026-11-08T08:15:43.245Z",
+      "correlation_id": "5ae2521c-3052-4ac4-804f-770894dc6b78"
+    },
+    {
+      "event_type": "PROPOSAL_CREATED",
+      "details": {
+        "currency": "USD",
+        "proposalId": "adb51761-5258-4b05-aec3-c416f5777a0c",
+        "amountMinor": "4900",
+        "fingerprint": "85a5550e97e117f4411b231a4683b9695e2fa7f5423b0513312d7aa2d97378c4"
+      },
+      "created_at": "2026-11-08T08:55:12.759Z",
+      "correlation_id": "a9ca0cad-01ae-4729-9ee6-846a8309abb9"
+    },
+    {
+      "event_type": "APPROVAL_RECORDED",
+      "details": {
+        "approvalId": "dbbd3fd8-59d2-45e6-9cae-628c6652dfd3",
+        "fingerprint": "85a5550e97e117f4411b231a4683b9695e2fa7f5423b0513312d7aa2d97378c4"
+      },
+      "created_at": "2026-11-08T08:59:08.632Z",
+      "correlation_id": "1f6db15b-835d-4f0d-8fc3-87957ddf4939"
+    },
+    {
+      "event_type": "ATTEMPT_RESERVED",
+      "details": {
+        "mode": "PAYPAL_SANDBOX",
+        "caseId": "48384fa2-b773-445e-96ee-1e254b061ce2",
+        "currency": "USD",
+        "approvalId": "dbbd3fd8-59d2-45e6-9cae-628c6652dfd3",
+        "amountMinor": "4900"
+      },
+      "created_at": "2026-11-08T08:59:08.657Z",
+      "correlation_id": "6ad5c767-6255-4ca2-ac24-7d16a06ac77e"
+    },
+    {
+      "event_type": "ATTEMPT_PREFLIGHT",
+      "details": {
+        "caseId": "48384fa2-b773-445e-96ee-1e254b061ce2",
+        "status": "PREFLIGHT",
+        "currency": "USD",
+        "amountMinor": "4900"
+      },
+      "created_at": "2026-11-08T08:59:08.745Z",
+      "correlation_id": "6ad5c767-6255-4ca2-ac24-7d16a06ac77e"
+    },
+    {
+      "event_type": "ATTEMPT_DISPATCHING",
+      "details": {
+        "caseId": "48384fa2-b773-445e-96ee-1e254b061ce2",
+        "status": "DISPATCHING",
+        "currency": "USD",
+        "amountMinor": "4900"
+      },
+      "created_at": "2026-11-08T08:59:13.452Z",
+      "correlation_id": "6ad5c767-6255-4ca2-ac24-7d16a06ac77e"
+    },
+    {
+      "event_type": "ATTEMPT_OUTCOME_UNKNOWN",
+      "details": {
+        "caseId": "48384fa2-b773-445e-96ee-1e254b061ce2",
+        "status": "OUTCOME_UNKNOWN",
+        "currency": "USD",
+        "amountMinor": "4900",
+        "failureCode": "OUTCOME_UNKNOWN"
+      },
+      "created_at": "2026-11-08T08:59:16.116Z",
+      "correlation_id": "6ad5c767-6255-4ca2-ac24-7d16a06ac77e"
+    },
+    {
+      "event_type": "REFUND_DISCOVERED_BY_GET",
+      "details": {
+        "source": "OWNED_ORDER_AND_REFUND_GET",
+        "captureId": "07F32503KM161910G",
+        "providerWrites": 0,
+        "providerRefundId": "30A36118AL831244C"
+      },
+      "created_at": "2026-11-08T09:17:45.917Z",
+      "correlation_id": "6ad5c767-6255-4ca2-ac24-7d16a06ac77e"
+    },
+    {
+      "event_type": "ATTEMPT_COMPLETED",
+      "details": {
+        "caseId": "48384fa2-b773-445e-96ee-1e254b061ce2",
+        "status": "COMPLETED",
+        "currency": "USD",
+        "amountMinor": "4900"
+      },
+      "created_at": "2026-11-08T09:17:45.917Z",
+      "correlation_id": "6ad5c767-6255-4ca2-ac24-7d16a06ac77e"
+    },
+    {
+      "event_type": "EXISTING_ATTEMPT_RETURNED",
+      "details": {
+        "attemptId": "d08c2d25-679b-4ea1-9787-a314fe325e14"
+      },
+      "created_at": "2026-11-08T09:18:44.526Z",
+      "correlation_id": "799818f8-56fb-41cc-9a05-88f9ce7313d0"
+    },
+    {
+      "event_type": "SANDBOX_EVIDENCE_RECORDED",
+      "details": {
+        "buildCommit": "UNTAGGED_LOCAL_BUILD",
+        "refundStatus": "COMPLETED"
+      },
+      "created_at": "2026-11-08T09:19:08.265Z",
+      "correlation_id": "7b77f0ad-123c-489c-880d-cce11a515bf3"
+    }
+  ]
+}

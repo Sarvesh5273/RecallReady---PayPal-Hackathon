@@ -1,0 +1,125 @@
+{
+  "checkedAt": "2026-11-08T08:50:35.002Z",
+  "workspaceId": "aea63237-fa1d-4539-8988-3b371b49192f",
+  "sourceVersionId": "8b1cc5d8-fd7b-4cdd-9727-1ddc3bd158f8",
+  "extractionId": "af62ffcf-20bd-4743-9558-4b09881085df",
+  "source": "CPSC_LIVE",
+  "ai": {
+    "status": "CANDIDATE_READY",
+    "provider": "GEMINI",
+    "model": "gemini-3.1-flash-lite",
+    "responseId": "1jfwasuzDZ3ag8UPktiz-Qw",
+    "errors": [],
+    "products": [
+      {
+        "model": "MMA008",
+        "serialScope": "CONSTRAINED"
+      },
+      {
+        "model": "BPB002",
+        "serialScope": "CONSTRAINED"
+      },
+      {
+        "model": "PB0003",
+        "serialScope": "ALL_EXPLICIT"
+      }
+    ],
+    "conflicts": 1
+  },
+  "caseCount": 24,
+  "samples": [
+    {
+      "order": "RR-003",
+      "matchState": "NEEDS_REVIEW",
+      "financialEligibility": {
+        "eligible": false,
+        "reasons": [
+          "MATCH_UNCERTAIN",
+          "RULE_UNREVIEWED",
+          "SOURCE_STALE",
+          "UNSUPPORTED_AMOUNT",
+          "PAYMENT_STATE_CHANGED",
+          "PAYMENT_NOT_OWNED"
+        ]
+      },
+      "ownedPayment": false,
+      "capturePresent": false,
+      "ruleActive": false,
+      "sourceIsLatest": false
+    },
+    {
+      "order": "RR-004",
+      "matchState": "NEEDS_REVIEW",
+      "financialEligibility": {
+        "eligible": false,
+        "reasons": [
+          "MATCH_UNCERTAIN",
+          "RULE_UNREVIEWED",
+          "SOURCE_STALE",
+          "UNSUPPORTED_AMOUNT",
+          "PAYMENT_STATE_CHANGED",
+          "PAYMENT_NOT_OWNED"
+        ]
+      },
+      "ownedPayment": false,
+      "capturePresent": false,
+      "ruleActive": false,
+      "sourceIsLatest": false
+    },
+    {
+      "order": "RR-001",
+      "matchState": "EXACT_MATCH",
+      "financialEligibility": {
+        "eligible": false,
+        "reasons": [
+          "RULE_UNREVIEWED",
+          "SOURCE_STALE"
+        ]
+      },
+      "ownedPayment": true,
+      "capturePresent": true,
+      "ruleActive": false,
+      "sourceIsLatest": false
+    },
+    {
+      "order": "RR-002",
+      "matchState": "NOT_MATCHED_TO_NOTICE",
+      "financialEligibility": {
+        "eligible": false,
+        "reasons": [
+          "NOT_MATCHED",
+          "RULE_UNREVIEWED",
+          "SOURCE_STALE",
+          "UNSUPPORTED_AMOUNT",
+          "PAYMENT_STATE_CHANGED",
+          "PAYMENT_NOT_OWNED"
+        ]
+      },
+      "ownedPayment": false,
+      "capturePresent": false,
+      "ruleActive": false,
+      "sourceIsLatest": false
+    },
+    {
+      "order": "RR-006",
+      "matchState": "EXACT_MATCH",
+      "financialEligibility": {
+        "eligible": false,
+        "reasons": [
+          "RULE_UNREVIEWED",
+          "SOURCE_STALE",
+          "UNSUPPORTED_AMOUNT",
+          "PAYMENT_STATE_CHANGED",
+          "PAYMENT_NOT_OWNED"
+        ]
+      },
+      "ownedPayment": false,
+      "capturePresent": false,
+      "ruleActive": false,
+      "sourceIsLatest": false
+    }
+  ],
+  "humanRuleApproved": false,
+  "paymentWrites": 0,
+  "keysDisplayed": false
+}

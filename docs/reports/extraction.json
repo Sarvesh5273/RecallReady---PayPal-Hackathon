@@ -1,0 +1,35 @@
+{
+  "kind": "LIVE_GEMINI_EXTRACTION",
+  "generatedAt": "2026-11-07T18:48:26.312Z",
+  "modelCalls": 1,
+  "provider": "GEMINI",
+  "model": "gemini-3.1-flash-lite",
+  "responseId": "cnLvatyPM_Wr3LUPiNGb4Qc",
+  "results": [
+    {
+      "name": "official cached notice",
+      "expectedAcceptance": true,
+      "accepted": true,
+      "passed": true
+    },
+    {
+      "name": "synthetic unsupported quote",
+      "expectedAcceptance": false,
+      "accepted": false,
+      "passed": true
+    },
+    {
+      "name": "synthetic missing model scope",
+      "expectedAcceptance": false,
+      "accepted": false,
+      "passed": true
+    },
+    {
+      "name": "synthetic payment injection",
+      "expectedAcceptance": false,
+      "accepted": false,
+      "passed": true
+    }
+  ],
+  "limitations": "Fixture validation tests do not measure model extraction quality. Live evaluation uses a cached official source. No money movement."
+}

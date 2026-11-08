@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-11-08T07:48:56.542Z",
+  "paypal": {
+    "configured": true,
+    "authenticated": true,
+    "errorCode": null
+  },
+  "ai": {
+    "provider": "GEMINI",
+    "model": "gemini-3.1-flash-lite",
+    "configured": true
+  },
+  "database": {
+    "ready": true,
+    "sandboxOwnerExists": true
+  },
+  "paymentWrites": 0,
+  "keysDisplayed": false
+}

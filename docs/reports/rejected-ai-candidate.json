@@ -1,0 +1,227 @@
+{
+  "candidate": {
+    "schemaVersion": "1.0",
+    "recallNumber": {
+      "value": "26-090",
+      "evidence": [
+        {
+          "documentId": "notice",
+          "quote": "Recall number:\n\n26-090"
+        }
+      ]
+    },
+    "recallDate": {
+      "value": "November 13, 2025",
+      "evidence": [
+        {
+          "documentId": "notice",
+          "quote": "Recall Date:\n\nNovember 13, 2025"
+        }
+      ]
+    },
+    "products": [
+      {
+        "brand": {
+          "value": "Belkin",
+          "evidence": [
+            {
+              "documentId": "notice",
+              "quote": "Belkin Recalls Portable Power Banks and Wireless Charging Stands"
+            }
+          ]
+        },
+        "model": {
+          "value": "MMA008",
+          "evidence": [
+            {
+              "documentId": "notice",
+              "quote": "This recall involves charging stands with model number MMA008"
+            }
+          ]
+        },
+        "serialScope": "CONSTRAINED",
+        "serialConditions": [
+          {
+            "value": "Serial numbers (14 digits) starting with “57X”",
+            "evidence": [
+              {
+                "documentId": "notice",
+                "quote": "Serial numbers (14 digits) starting with “57X” are included in this recall and are also printed on the bottom of the charging stand."
+              }
+            ]
+          }
+        ],
+        "dateCodeConditions": [],
+        "otherConditions": []
+      },
+      {
+        "brand": {
+          "value": "Belkin",
+          "evidence": [
+            {
+              "documentId": "notice",
+              "quote": "Belkin Recalls Portable Power Banks and Wireless Charging Stands"
+            }
+          ]
+        },
+        "model": {
+          "value": "BPB002",
+          "evidence": [
+            {
+              "documentId": "notice",
+              "quote": "power banks with model numbers BPB002"
+            }
+          ]
+        },
+        "serialScope": "CONSTRAINED",
+        "serialConditions": [
+          {
+            "value": "Serial numbers (14 digits) starting with “35S”",
+            "evidence": [
+              {
+                "documentId": "notice",
+                "quote": "Serial numbers (14 digits) starting with “35S” are included in this recall and are also printed on the back of the power bank."
+              }
+            ]
+          }
+        ],
+        "dateCodeConditions": [],
+        "otherConditions": []
+      },
+      {
+        "brand": {
+          "value": "Belkin",
+          "evidence": [
+            {
+              "documentId": "notice",
+              "quote": "Belkin Recalls Portable Power Banks and Wireless Charging Stands"
+            }
+          ]
+        },
+        "model": {
+          "value": "PB0003",
+          "evidence": [
+            {
+              "documentId": "notice",
+              "quote": "Model number “PB0003” is printed on the back of the power bank. All serial numbers are included in this recall."
+            }
+          ]
+        },
+        "serialScope": "ALL_EXPLICIT",
+        "serialConditions": [
+          {
+            "value": "All serial numbers are included in this recall.",
+            "evidence": [
+              {
+                "documentId": "notice",
+                "quote": "Model number “PB0003” is printed on the back of the power bank. All serial numbers are included in this recall."
+              }
+            ]
+          }
+        ],
+        "dateCodeConditions": [],
+        "otherConditions": []
+      }
+    ],
+    "remedyOptions": [
+      {
+        "kind": "REFUND",
+        "instructions": {
+          "value": "Consumers should immediately stop using the recalled power banks and charging stands and contact Belkin to receive a full refund or store credit.",
+          "evidence": [
+            {
+              "documentId": "notice",
+              "quote": "Consumers should immediately stop using the recalled power banks and charging stands and contact Belkin to receive a full refund or store credit."
+            }
+          ]
+        },
+        "requirements": [
+          {
+            "value": "Consumers should submit photos showing the front and back of the product with their recall submission form.",
+            "evidence": [
+              {
+                "documentId": "notice",
+                "quote": "Consumers should submit photos showing the front and back of the product with their recall submission form."
+              }
+            ]
+          }
+        ],
+        "contactOrganization": {
+          "value": "Belkin",
+          "evidence": [
+            {
+              "documentId": "notice",
+              "quote": "contact Belkin to receive a full refund or store credit."
+            }
+          ]
+        }
+      },
+      {
+        "kind": "STORE_CREDIT",
+        "instructions": {
+          "value": "Alternatively, consumers can choose to receive a Belkin store credit worth 20 percent more than the average sales price of the model.",
+          "evidence": [
+            {
+              "documentId": "notice",
+              "quote": "Alternatively, consumers can choose to receive a Belkin store credit worth 20 percent more than the average sales price of the model."
+            }
+          ]
+        },
+        "requirements": [
+          {
+            "value": "Consumers should submit photos showing the front and back of the product with their recall submission form.",
+            "evidence": [
+              {
+                "documentId": "notice",
+                "quote": "Consumers should submit photos showing the front and back of the product with their recall submission form."
+              }
+            ]
+          }
+        ],
+        "contactOrganization": {
+          "value": "Belkin",
+          "evidence": [
+            {
+              "documentId": "notice",
+              "quote": "contact Belkin to receive a full refund or store credit."
+            }
+          ]
+        }
+      }
+    ],
+    "safetyInstructions": [
+      {
+        "value": "Do not throw this recalled lithium-ion battery or device in the trash, the general recycling stream (e.g., street-level or curbside recycling bins), or used battery recycling boxes found at various retail and home improvement stores.",
+        "evidence": [
+          {
+            "documentId": "notice",
+            "quote": "Do not throw this recalled lithium-ion battery or device in the trash, the general recycling stream (e.g., street-level or curbside recycling bins), or used battery recycling boxes found at various retail and home improvement stores."
+          }
+        ]
+      }
+    ],
+    "conflicts": [
+      {
+        "field": "model",
+        "description": "The document refers to model PB0003 in the text description, but the list of recalled products mentions PB003.",
+        "evidence": [
+          {
+            "documentId": "notice",
+            "quote": "Recalled PB003 Portable Power Bank"
+          },
+          {
+            "documentId": "notice",
+            "quote": "power banks with model numbers BPB002 and PB0003."
+          }
+        ]
+      }
+    ],
+    "unknowns": []
+  },
+  "diagnostic": "SCHEMA_INVALID",
+  "issuePaths": [
+    "schemaVersion"
+  ],
+  "model": "gemini-3.1-flash-lite",
+  "responseId": "7W_vapfqMYijqfkP7v7eiAg"
+}

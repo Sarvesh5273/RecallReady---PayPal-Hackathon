@@ -1,0 +1,134 @@
+{
+  "kind": "DETERMINISTIC_MATCHER_ONLY",
+  "generatedAt": "2026-11-07T14:02:22.553Z",
+  "passed": 24,
+  "total": 24,
+  "notMeasured": [
+    "AI extraction accuracy",
+    "provider execution",
+    "concurrency",
+    "merchant validation"
+  ],
+  "results": [
+    {
+      "case": "RR-001",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-002",
+      "expected": "NOT_MATCHED_TO_NOTICE",
+      "actual": "NOT_MATCHED_TO_NOTICE"
+    },
+    {
+      "case": "RR-003",
+      "expected": "NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW"
+    },
+    {
+      "case": "RR-004",
+      "expected": "NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW"
+    },
+    {
+      "case": "RR-005",
+      "expected": "NOT_MATCHED_TO_NOTICE",
+      "actual": "NOT_MATCHED_TO_NOTICE"
+    },
+    {
+      "case": "RR-006",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-007",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-008",
+      "expected": "NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW"
+    },
+    {
+      "case": "RR-009",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-010",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-011",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-012",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-013",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-014",
+      "expected": "NOT_MATCHED_TO_NOTICE",
+      "actual": "NOT_MATCHED_TO_NOTICE"
+    },
+    {
+      "case": "RR-015",
+      "expected": "NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW"
+    },
+    {
+      "case": "RR-016",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-017",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-018",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-019",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-020",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-021",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-022",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-023",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    },
+    {
+      "case": "RR-024",
+      "expected": "EXACT_MATCH",
+      "actual": "EXACT_MATCH"
+    }
+  ]
+}

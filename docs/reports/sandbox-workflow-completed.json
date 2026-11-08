@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-11-08T09:25:42.452Z",
+  "mode": "PAYPAL_SANDBOX",
+  "workspaceId": "aea63237-fa1d-4539-8988-3b371b49192f",
+  "source": {
+    "origin": "CPSC_LIVE",
+    "freshness_checked_at": "2026-11-08T08:50:28.907Z",
+    "provider": "GEMINI",
+    "model": "gemini-3.1-flash-lite",
+    "provider_response_id": "1jfwasuzDZ3ag8UPktiz-Qw",
+    "prompt_version": "grounded-v3",
+    "extraction_status": "CANDIDATE_READY",
+    "validation_errors": [],
+    "reviewed_rule_revision": 2,
+    "reviewed_at": "2026-11-08T08:53:14.385Z"
+  },
+  "recordedProof": {
+    "mode": "RECORDED_SANDBOX_EVIDENCE",
+    "orderId": "0XG13462MH668510N",
+    "currency": "USD",
+    "refundId": "30A36118AL831244C",
+    "ruleHash": "6ba5921ddcda72b69bc2c876994910204f96c3be5140dc69e0776d45e14b7f27",
+    "attemptId": "d08c2d25-679b-4ea1-9787-a314fe325e14",
+    "captureId": "07F32503KM161910G",
+    "approvalId": "dbbd3fd8-59d2-45e6-9cae-628c6652dfd3",
+    "sourceHash": "ea30d2d0a140ab5ade037f5495729136990baca4d7a59f290565ed140588776b",
+    "verifiedAt": "2026-11-08T09:19:08.263Z",
+    "amountMinor": "4900",
+    "refundStatus": "COMPLETED",
+    "captureStatus": "REFUNDED",
+    "verificationMethod": "ORDER_AND_REFUND_GET_RECOVERY",
+    "manufacturerClaimSubmitted": false
+  },
+  "recordedAt": "2026-11-08T09:19:08.265Z",
+  "buildReference": "UNTAGGED_LOCAL_BUILD",
+  "duplicateCheck": {
+    "attempts": 1,
+    "execution_jobs": 1,
+    "dispatch_events": 1,
+    "repeat_events": 1
+  },
+  "providerWritesDuringVerification": 0,
+  "keysDisplayed": false,
+  "limitations": [
+    "Synthetic merchant, people, and order evidence.",
+    "Refund recovered from authoritative order and refund GET records after response-link parsing failed.",
+    "Recovery verifies the capture was refunded; provider-write actor attribution is not independently established.",
+    "Local build has no release tag. Demo video and public submission are not completed."
+  ]
+}

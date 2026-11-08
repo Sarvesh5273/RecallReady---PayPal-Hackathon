@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-11-07T19:09:44.229Z",
+  "workspaceId": "ad7396ae-9f74-4141-a89a-776fb116f5dd",
+  "sourceVersionId": "882c03c8-9111-4ccb-8ff2-685151c7938b",
+  "extractionId": "d3b382d3-92a1-4b5b-8f9f-bd4c17c677f7",
+  "sourceOrigin": "CPSC_LIVE",
+  "provider": "GEMINI",
+  "model": "gemini-3.1-flash-lite",
+  "responseId": "cHfvavm4AbnojuMPoN606QQ",
+  "status": "CANDIDATE_READY",
+  "validationErrors": [],
+  "products": [
+    {
+      "model": "MMA008",
+      "serialScope": "CONSTRAINED"
+    },
+    {
+      "model": "BPB002",
+      "serialScope": "CONSTRAINED"
+    },
+    {
+      "model": "PB0003",
+      "serialScope": "ALL_EXPLICIT"
+    }
+  ],
+  "conflictCount": 1,
+  "humanReviewPerformed": false,
+  "paymentWrites": 0,
+  "keysDisplayed": false
+}
