@@ -1,0 +1,2 @@
+ALTER TABLE extractions ADD COLUMN provider text NOT NULL DEFAULT 'FIXTURE' CHECK(provider IN ('FIXTURE','OPENAI','GROQ'));
+UPDATE extractions SET provider='OPENAI' WHERE model<>'FIXTURE_NO_MODEL_CALL';
